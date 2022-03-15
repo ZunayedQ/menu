@@ -1,0 +1,120 @@
+/* common css starting */
+
+*{
+    margin:0;
+    padding:0;
+    outline:0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+body{
+    font-family: sans-serif;
+    width:1140px;
+}
+.container{
+    width:1140px;
+    margin:auto;
+}
+/* Common CSS ending  */
+
+
+/* header CSS starting  */
+header{
+    width:1140px;
+}
+header .logo{
+    position:relative;
+    
+}
+header .upper{
+    display:flex;
+}
+header .motto{
+    position:relative;
+    padding:60px 295px;
+    font-size: 36px;
+    color:red;
+    background-color:#272829;
+    text-shadow:2px 2px 5px white;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+
+
+
+
+
+/* header CSS ending  */
+
+
+
+
+
+/* menu CSS starting  */
+nav{
+    background-color: black;
+    color:white;
+}
+nav > ul{
+    display:flex;
+}
+nav ul li{
+    padding:20px 25px;
+    transition:all 0.4s linear;
+    position:relative;
+}
+nav ul li a{
+    color:white;
+    display:block;
+}
+nav ul li:hover{
+    background-color: #fc0fc9;
+
+}
+nav ul li ul{
+    position:absolute;
+    top:140%;
+    left:0;
+    visibility:hidden;
+    opacity:0;
+    background-color: black;
+    transition: all 0.4s linear;
+    min-width: 170px;
+
+}
+nav ul li:hover > ul{
+    top:100%;
+    left:0;
+    visibility:visible;
+    opacity:1;
+}    
+nav ul li ul li{
+    position:relative;
+}
+nav ul li ul li ul{
+    position:absolute;
+    left:100%;
+    top:40%;
+    background-color: black;
+
+}
+nav ul li ul li:hover ul{
+    left:100%;
+    top:0;
+
+}
+/* menu CSS ending  */
+
+
+/* banner CSS starting  */
+.banner{
+    width:1140px;
+    left:auto;
+
+}
